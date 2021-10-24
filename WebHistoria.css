@@ -1,0 +1,189 @@
+/* html { 
+    height: 300%;
+}*/
+body {
+  background-color: #fbeaeb;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.header {
+  background: #605d73;
+  color: #c0beb5;
+  height: 66px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.sticky + .content {
+  padding-top: 52px;
+}
+
+
+#x60talet {
+  top: 250px;
+  left: 30%;
+}
+#sextio-text{
+   font-size: 30px;
+}
+img.sextio {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
+#line1 {
+  height: 150px;
+  width: 12px;
+  background-color: #7ec8e3;
+  border-radius: 12px;
+  margin: auto;
+}
+
+
+
+#x70-talet {
+  left: 30%;
+}
+#sjuttio-text{
+    font-size: 30px;
+}
+img.sjuttio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
+#line2 {
+  height: 150px;
+  width: 12px;
+  background-color: #7ec8e3;
+  border-radius: 12px;
+  margin: auto;
+}
+
+
+
+#x80-talet {
+  left: 30%;
+}
+#åttio-text{
+    font-size: 30px;
+}
+img.åttio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
+#line3 {
+  height: 150px;
+  width: 12px;
+  background-color: #7ec8e3;
+  border-radius: 12px;
+  margin: auto;
+}
+
+
+
+#x90-talet {
+  left: 30%;
+}
+#nittio-text{
+    font-size: 30px;
+}
+img.nittio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
+#line4 {
+  height: 150px;
+  width: 12px;
+  background-color: #7ec8e3;
+  border-radius: 12px;
+  margin: auto;
+}
+
+
+
+#x00-talet {
+  left: 30%;
+}
+#tusen-text{
+    font-size: 30px;
+}
+img.tusen {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
+#line5 {
+  height: 150px;
+  width: 12px;
+  background-color: #7ec8e3;
+  border-radius: 12px;
+  margin: auto;
+}
+
+
+
+#x10-talet {
+  left: 30%;
+}
+#tio-text{
+    font-size: 30px;
+}
+img.tio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
+#line6 {
+  height: 150px;
+  width: 12px;
+  background-color: #7ec8e3;
+  border-radius: 12px;
+  margin: auto;
+}
+
+
+
+#x20-talet {
+  left: 30%;
+}
+#tjugio-text{
+    font-size: 30px;
+}
+img.tjugio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  vertical-align:middle;
+}
