@@ -43,6 +43,26 @@ h4 {
     color: #000;
   }
 }
+.blinkingFast {
+  animation: blinkingText 0.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
+}
 
 #bigVirusAd {
   background-color: lightskyblue;
@@ -58,25 +78,77 @@ h4 {
   font-size: 20px;
 }
 
-.btn{
-    border: 2px solid black;
-    background-color: seashell;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    bottom: 0;
-    position: fixed;
-    margin-bottom: 30px;
+.btn {
+  border: 2px solid black;
+  background-color: seashell;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 30px;
 }
 
 .default {
-    border-color: #977e7e;
-    color: black;
-  }
-  
-  .default:hover {
-    background: rgb(201, 198, 198);
+  border-color: #977e7e;
+  color: black;
+}
 
-  }
+.default:hover {
+  background: rgb(201, 198, 198);
+}
 
+#bigPop-Up {
+  position: fixed;
+  top: 10vh;
+  right: 15vw;
+  left: 15vw;
+  bottom: 8vw;
+  background-color: red;
+}
+#bigCookieText {
+  display: block;
+  text-align: center;
+  width: 70vw;
+  font-size: 25px;
+  margin-top: 150px;
+}
+#acceptTracking {
+  width: 110px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  right: 310px;
+  border: 2px solid darkred;
+  padding: 5px;
+  background-color: greenyellow;
+
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  text-align: center;
+}
+#lolzAccept {
+  width: 110px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: 310px;
+  border: 2px solid darkred;
+  padding: 5px;
+  background-color: green;
+
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  text-align: center;
+}
