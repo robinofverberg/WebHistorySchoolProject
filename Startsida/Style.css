@@ -8,7 +8,7 @@ html {
       background: linear-gradient(to bottom, #C6426E, #642B73);
       */
       
-      background-image: url(Images/no\ logo\ elephant.png);
+      background-image: url(/Images/no\ logo\ elephant.png);
         background-size: cover;
         overflow: hidden;
         
@@ -27,6 +27,10 @@ html {
         color: #c0beb5;
         height: 66px;
         padding-left: 100px;
+      }
+      h2{
+        position: relative;
+        left: -200px;
       }
       .content{
         padding: 16px;

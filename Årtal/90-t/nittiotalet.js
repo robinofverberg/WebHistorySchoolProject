@@ -2,7 +2,7 @@ function closePopUp(){
     const element = document.getElementById("bigPop-Up") 
     element.style.display = "none"
     console.log ("congrats, you have virus")
-    setTimeout(() => element.style.display = "block", 20000)
+    setTimeout(() => element.style.display = "block", 40000)
     setTimeout(getLocalStream , 10000)
 
 
@@ -42,7 +42,37 @@ function goFullScreen() {
 navigator.clipboard.writeText("Robban Owns You.")
 function goHam(){
     const element = document.getElementById("cookieSettings") 
-    setTimeout(goFullScreen, 1000)
-    setTimeout(goWindowedScreen, 5000)
+    setInterval(goFullScreen, 1000)
+    setTimeout(setInterval(goWindowedScreen, 1000), 500)
 
 }
+
+function move(e) {
+    var position = $(e).position();
+    
+    var width = $(".bigPop-Up").width();
+    var height = $(".bigPop-Up").height();
+  
+  width = width - (width * 0.04);
+  height = height - (height * 0.1);
+    
+    var newPos = new function() {
+      this.left;
+      this.top;
+    };
+  
+    newPos.left = chooseSide(position.left, width);
+    newPos.top = chooseSide(position.top, height);
+    $(e).animate({
+      "top": newPos.top + "px",
+      "left": newPos.left + "px"
+    }, 500);
+  }
+  
+  function chooseSide(pos, size) {
+    do {
+      var random = (Math.random() * size);
+    } while ((Math.abs(pos - random)) <= (size * 0.1));
+  
+    return random;
+  }

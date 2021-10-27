@@ -187,3 +187,16 @@ img.tjugio {
   border-radius: 12px;
   vertical-align:middle;
 }
+#tillbakaKnapp{
+  position: fixed;
+  top: 120px;
+  left: 10px;
+  background: #605d73;
+  color: #c0beb5;
+  width: 150px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  text-decoration: none;
+}

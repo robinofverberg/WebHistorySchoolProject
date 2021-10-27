@@ -1,0 +1,33 @@
+html{
+    text-align: left;
+}
+body{
+    background-color: #F9FCC3;
+}
+#linkBox{
+    position: absolute;
+    width: 95vw;
+    height: 30px;
+    border-top: 5px solid darkred;
+    border-bottom: 5px solid darkred;
+    padding-top: 10px;
+}
+#text{
+    position: absolute;
+    width: 95vw;
+    margin-top: 70px;
+    font-size: 18px;
+}
+#partnerPics{
+    position: absolute;
+    width: 95vw;
+    height: 80px;
+    border-top: 5px solid darkred;
+    padding:20px;
+    bottom: 0;
+}
+#partnerPics img{
+height: 60px;
+width: auto;
+margin-left: 100px;
+}

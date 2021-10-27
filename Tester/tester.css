@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bigContainer {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .button {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    border-radius: 5px;
+    -webkit-animation-name: flash;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes flash {
+    0%,
+    100% {
+      background: red;
+    }
+    25% {
+      background: yellow;
+    }
+    50% {
+      background: green;
+    }
+    75% {
+      background: blue;
+    }
+  }
+  
