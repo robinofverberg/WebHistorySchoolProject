@@ -138,11 +138,11 @@ html {
         background-color: #FBEAEB;
         z-index: 10;
         border-radius: 12px 0 0 12px;
+        transition: right 200ms ease-in-out;
       }
 
       .hamburgerMenuHidden {
         right: -400px !important;
-        transition: right 200ms ease-in-out;
 
       }
       #webhistoria{
@@ -202,16 +202,15 @@ html {
       .logo{
         position: relative;
         display: inline-block;
-        bottom: -20px;
+        bottom: -40px;
         opacity: 0;
+        transition: ease-in-out 0.5s;
       }
       .logo.active{
         bottom: 0;
         opacity: 1;
-        transition: ease-in-out 0.5;
       }
       .logo.fade{
         bottom: 150px;
         opacity: 0;
-        transition: ease-in-out 0.5s;
       }
